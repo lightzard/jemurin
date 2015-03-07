@@ -1,0 +1,58 @@
+fetch request token..OAuthException:  CURL error: Could not resolve host: sandbox.appprime.netobject(OAuthException2)#3 (7) {
+  ["message":protected]=>
+  string(56) "CURL error: Could not resolve host: sandbox.appprime.net"
+  ["string":"Exception":private]=>
+  string(0) ""
+  ["code":protected]=>
+  int(0)
+  ["file":protected]=>
+  string(56) "/home/irfan/jemurin/oauth-php/library/OAuthRequester.php"
+  ["line":protected]=>
+  int(418)
+  ["trace":"Exception":private]=>
+  array(2) {
+    [0]=>
+    array(6) {
+      ["file"]=>
+      string(56) "/home/irfan/jemurin/oauth-php/library/OAuthRequester.php"
+      ["line"]=>
+      int(160)
+      ["function"]=>
+      string(8) "curl_raw"
+      ["class"]=>
+      string(14) "OAuthRequester"
+      ["type"]=>
+      string(2) "->"
+      ["args"]=>
+      array(1) {
+        [0]=>
+        array(0) {
+        }
+      }
+    }
+    [1]=>
+    array(6) {
+      ["file"]=>
+      string(27) "/home/irfan/jemurin/tes.php"
+      ["line"]=>
+      int(28)
+      ["function"]=>
+      string(19) "requestRequestToken"
+      ["class"]=>
+      string(14) "OAuthRequester"
+      ["type"]=>
+      string(2) "::"
+      ["args"]=>
+      array(3) {
+        [0]=>
+        string(13) "hardhack_0006"
+        [1]=>
+        int(0)
+        [2]=>
+        NULL
+      }
+    }
+  }
+  ["previous":"Exception":private]=>
+  NULL
+}
