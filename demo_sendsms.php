@@ -1,8 +1,8 @@
 <?php
 require_once("AppPRIME.class.php");															// include class AppPRIME
 $config = array(																								// setting config via array
-	'partner_key' => 'hardhack_0006',
-	'secret_key' => 'AZ0H8'
+	'partner_key' => 'hardhack_0003',
+	'secret_key' => 'ATMDH'
 );
 
 /** 
@@ -21,7 +21,7 @@ $AppPRIME->setDebug(true);							// debug : true / false
 $param=array(														// array parameter send sms
 		"address" => "02717099323",           // - nomor flexi tujuan
 		"charginginformation" => array(
-			"description" => "testing sms irfan",   // - deskripsi
+			"description" => "testing sms",   // - deskripsi
 			"currency" => "IDR",              // - mata uang : IDR
 			"amount" => "1",                  // - rupiah yang dideduct, berlaku jika code != SDPCHG000
 			"code" => "SDPCHG000"             // - charge code
