@@ -11,7 +11,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 //echo "Connected successfully";
-$sql ="update status set status=1 where status!=1";
+$sql ="update satutable set nomor=1 where nomor!=1";
 //$result = mysqli_query($conn, $sql);
 if ($conn->query($sql) === TRUE) {
     echo "Record updated successfully";

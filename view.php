@@ -11,14 +11,14 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 //echo "Connected successfully";
-$sql ="select status from status";
+$sql ="select nomor from satutable";
 $result = mysqli_query($conn, $sql);
 
 if (mysqli_num_rows($result) > 0) {
     // output data of each row
     while($row = mysqli_fetch_assoc($result)) {
-        if($row['status']==0)echo "<h1>Hujan</h1>";
-        else if($row['status']==1)echo "<h1>Terang</h1>";
+        if($row['nomor']==0)echo "<h1>Hujan</h1>";
+        else if($row['nomor']==1)echo "<h1>Terang</h1>";
         else echo "<h1>Selesai</h1>";
     }
 } else {
