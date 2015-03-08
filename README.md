@@ -1,4 +1,7 @@
 # jemurin
+[![TampakDepan](http://i1117.photobucket.com/albums/k584/lightzard/rancangan%20tampak%20depan.png "TampakDepan")]
+
+
 Smart Jemuran Prototype
 Arduino-based integration with telkom API for notifications
 
@@ -18,3 +21,6 @@ SunSquare Studio:
 * Kurniagusta Dwinto
 * Muhammad Faris
 * Yusuf Cahyo
+
+##Schematics
+[![Schematics](http://i1117.photobucket.com/albums/k584/lightzard/P_20150308_133654.jpg "Schematics")]
