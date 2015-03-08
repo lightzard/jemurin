@@ -9,6 +9,6 @@
 
 
 
-<form method="POST" action='http://www.sunsquarestudio.com/jemurin/set_clear.php'>
+<form method="POST" action='http://www.sunsquarestudio.com/jemurin/set_finish.php'>
 <input type="submit" name="button1"  value="Selesai">
 </form>
