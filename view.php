@@ -26,13 +26,13 @@ if (mysqli_num_rows($result) > 0) {
 }
 
 $page = $_SERVER['PHP_SELF'];
-$sec = "4";
+$sec = "3";
 
 ?>
 <head>
 <meta http-equiv="refresh" content="<?php echo $sec?>;URL='<?php echo $page?>'">
 
-	<title>Hujan</title>
+	<title>Jemurin</title>
 </head>
 <body style="background-color:#89C4F4;width:350px;margin: auto">
 	<img src="assets/rain.png"align="middle"></img>
